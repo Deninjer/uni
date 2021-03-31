@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#Dylan Immelman
+#10525787
 
 while true; do      #Infinite  that stops when all lines have been read
 

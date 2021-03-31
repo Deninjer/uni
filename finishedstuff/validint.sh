@@ -1,4 +1,6 @@
 #!/bin/bash
+#Dylan Immelman
+#10525787
 
 re='^[0-9]+$'       #variable that contains search for a two digit number between 10 and 99
 read -p 'Enter a two digit numeric code that is equal to either 20 or 40. ' var1

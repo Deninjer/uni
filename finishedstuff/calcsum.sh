@@ -1,4 +1,6 @@
 #!/bin/bash
+#Dylan Immelman
+#10525787
 
 sum=$(($1 + $2 + $3))       #calculates sum of the 3 command line inputs
 

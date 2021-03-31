@@ -1,4 +1,6 @@
 #!/bin/bash
+#Dylan Immelman
+#10525787
 
 directory=$1    #Setting command line result as directory to be checked
 fullfi=0        #Initializing all file values
