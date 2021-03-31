@@ -1,0 +1,22 @@
+su(pam_unix)[21416]: session opened for user cyrus by (uid=0) Jun 15 04:12:43
+su(pam_unix)[22644]: session closed for user news Jun 15 04:12:43
+sshd(pam_unix)[23397]: check pass; user unknown Jun 15 04:12:43
+ftpd[9769]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2020
+ftpd[9776]: connection from 211.72.152.162 () at Wed Jul  6 18:00:56 2020
+ftpd[9771]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2020
+Jul 27 14:41:54 combo sysctl: kernel.core_uses_pid = 1
+Jul 27 14:41:59 combo hcid[1690]: HCI daemon ver 2.4 started
+Jul 27 14:41:59 combo bluetooth: hcid startup succeeded
+Jul 27 14:41:59 combo kernel: audit(1122475266.4294965305:0): initialized
+Jul 27 14:41:54 combo network: Setting network parameters:  succeeded
+Jul 27 14:41:59 combo kernel: SELinux:  Registering netfilter hooks
+ftpd[9770]: connection from 211.72.152.162 () at Wed Jul  6 18:00:56 2020
+ftpd[9765]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2020
+ftpd[9764]: connection from 211.72.154.163 () at Wed Jul  6 18:00:56 2020
+Jul 27 14:41:59 combo kernel: PCI: Probing PCI hardware (bus 00)
+Jul 27 14:41:59 combo kernel: Transparent bridge - 0000:00:1e.0
+su(pam_unix)[21416]: session closed for user cyrus Jun 15 04:12:43
+su(pam_unix)[22644]: session opened for user news by (uid=0) Jun 15 04:12:4
+Jul 27 14:41:59 combo kernel: PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0
+Jul 27 14:41:59 combo kernel: apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac)
+Jul 27 14:41:59 combo kernel: audit: initializing netlink socket (disabled)
