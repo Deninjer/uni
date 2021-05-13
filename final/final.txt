@@ -1,0 +1,236 @@
+TCP    EXT_SERVER  22     10001_123  4877       18         2985       suspicious 
+TCP    10001_123   4877   EXT_SERVER 22         13         2779       suspicious 
+TCP    10004_35    14238  EXT_SERVER 22         6          314        suspicious 
+TCP    EXT_SERVER  22     10004_35   14238      4          281        suspicious 
+TCP    10006_27    54348  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10006_27   54348      19         3185       suspicious 
+TCP    EXT_SERVER  22     10001_123  3549       19         3093       suspicious 
+TCP    10001_123   3549   EXT_SERVER 22         13         2779       suspicious 
+TCP    10008_114   53476  EXT_SERVER 22         15         2157       suspicious 
+TCP    EXT_SERVER  22     10008_114  53476      20         3249       suspicious 
+TCP    10006_27    50171  EXT_SERVER 22         17         2261       suspicious 
+TCP    EXT_SERVER  22     10006_27   50171      20         3249       suspicious 
+TCP    10006_27    47044  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10006_27   47044      19         3185       suspicious 
+TCP    EXT_SERVER  22     10001_123  3278       20         3065       suspicious 
+TCP    10001_123   3278   EXT_SERVER 22         18         3009       suspicious 
+TCP    10008_104   41009  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_104  41009      19         3185       suspicious 
+TCP    10008_104   57713  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_104  57713      20         4213       suspicious 
+TCP    10008_104   47514  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  47514      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  56766      20         3249       suspicious 
+TCP    10054_224   56766  EXT_SERVER 22         15         2157       suspicious 
+TCP    10006_27    48162  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10006_27   48162      19         3197       suspicious 
+TCP    10008_104   46244  EXT_SERVER 22         17         2283       suspicious 
+TCP    EXT_SERVER  22     10008_104  46244      19         3185       suspicious 
+TCP    10008_104   54373  EXT_SERVER 22         18         2319       suspicious 
+TCP    EXT_SERVER  22     10008_104  54373      19         3185       suspicious 
+TCP    10008_104   37258  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  37258      19         3185       suspicious 
+TCP    EXT_SERVER  22     10001_123  4966       20         3065       suspicious 
+TCP    10001_123   4966   EXT_SERVER 22         16         2917       suspicious 
+TCP    10008_104   42799  EXT_SERVER 22         18         2319       suspicious 
+TCP    EXT_SERVER  22     10008_104  42799      19         3185       suspicious 
+TCP    10008_104   50874  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  50874      19         3185       suspicious 
+TCP    10008_104   32814  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  32814      19         3185       suspicious 
+TCP    EXT_SERVER  22     10001_123  1940       19         3037       suspicious 
+TCP    10001_123   1940   EXT_SERVER 22         16         3027       suspicious 
+TCP    10006_27    17891  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10006_27   17891      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  36776      19         3185       suspicious 
+TCP    10054_224   36776  EXT_SERVER 22         17         2267       suspicious 
+TCP    10008_104   40169  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_104  40169      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  50597      19         3185       suspicious 
+TCP    10054_224   50597  EXT_SERVER 22         16         2215       suspicious 
+TCP    EXT_SERVER  22     10054_224  48212      20         3249       suspicious 
+TCP    10054_224   48212  EXT_SERVER 22         17         2261       suspicious 
+TCP    10008_104   47358  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  47358      19         3185       suspicious 
+TCP    10008_114   47184  EXT_SERVER 22         17         2261       suspicious 
+TCP    EXT_SERVER  22     10008_114  47184      20         3249       suspicious 
+TCP    EXT_SERVER  22     10054_224  60544      19         3185       suspicious 
+TCP    10054_224   60544  EXT_SERVER 22         17         2267       suspicious 
+UDP    10099_127   5081   EXT_SERVER 5060       1          439        suspicious 
+ICMP   EXT_SERVER  0      10099_127  3.3        1          467        suspicious 
+TCP    10008_104   52894  EXT_SERVER 22         18         2351       suspicious 
+TCP    EXT_SERVER  22     10008_104  52894      19         3185       suspicious 
+TCP    EXT_SERVER  22     10001_123  2237       19         3077       suspicious 
+TCP    10001_123   2237   EXT_SERVER 22         13         2779       suspicious 
+TCP    EXT_SERVER  22     10054_224  45608      19         3185       suspicious 
+TCP    10054_224   45608  EXT_SERVER 22         15         2163       suspicious 
+TCP    10008_104   58473  EXT_SERVER 22         18         2335       suspicious 
+TCP    EXT_SERVER  22     10008_104  58473      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  56887      19         3185       suspicious 
+TCP    10054_224   56887  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10001_123  4913       19         3093       suspicious 
+TCP    10001_123   4913   EXT_SERVER 22         16         2917       suspicious 
+TCP    10008_104   38580  EXT_SERVER 22         17         2283       suspicious 
+TCP    EXT_SERVER  22     10008_104  38580      19         3185       suspicious 
+TCP    10006_27    26774  EXT_SERVER 22         17         2261       suspicious 
+TCP    EXT_SERVER  22     10006_27   26774      20         3249       suspicious 
+TCP    10004_35    34592  EXT_SERVER 22         8          1359       suspicious 
+TCP    EXT_SERVER  22     10004_35   34592      9          3378       suspicious 
+TCP    10004_35    33905  EXT_SERVER 22         5          931        suspicious 
+TCP    EXT_SERVER  22     10004_35   33905      12         8481       suspicious 
+TCP    EXT_SERVER  22     10054_224  40646      19         3185       suspicious 
+TCP    10054_224   40646  EXT_SERVER 22         18         2319       suspicious 
+TCP    10004_35    33239  EXT_SERVER 22         6          328        suspicious 
+TCP    EXT_SERVER  22     10004_35   33239      8          563        suspicious 
+TCP    10008_114   37452  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_114  37452      19         3185       suspicious 
+TCP    10008_104   47394  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  47394      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  55085      19         3185       suspicious 
+TCP    10054_224   55085  EXT_SERVER 22         17         2267       suspicious 
+TCP    10008_114   46426  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_114  46426      19         3185       suspicious 
+TCP    10008_104   53444  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  53444      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  35267      19         3185       suspicious 
+TCP    10054_224   35267  EXT_SERVER 22         15         2163       suspicious 
+TCP    10101_33    3737   EXT_SERVER 445        3          144        suspicious 
+TCP    EXT_SERVER  445    10101_33   3737       3          120        suspicious 
+TCP    10008_114   53374  EXT_SERVER 22         17         2279       suspicious 
+TCP    EXT_SERVER  22     10008_114  53374      20         4085       suspicious 
+TCP    10008_104   34715  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  34715      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  45088      19         3185       suspicious 
+TCP    10054_224   45088  EXT_SERVER 22         17         2267       suspicious 
+TCP    10008_114   34769  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_114  34769      19         3185       suspicious 
+TCP    10008_104   42874  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_104  42874      19         3185       suspicious 
+TCP    10004_35    29141  EXT_SERVER 22         8          1081       suspicious 
+TCP    EXT_SERVER  22     10004_35   29141      14         8597       suspicious 
+TCP    EXT_SERVER  22     10054_224  55126      19         3185       suspicious 
+TCP    10054_224   55126  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10001_123  4936       19         3093       suspicious 
+TCP    10001_123   4936   EXT_SERVER 22         13         2779       suspicious 
+TCP    10008_114   44139  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_114  44139      19         3185       suspicious 
+TCP    10008_104   51519  EXT_SERVER 22         15         2179       suspicious 
+TCP    EXT_SERVER  22     10008_104  51519      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  37450      19         3185       suspicious 
+TCP    10054_224   37450  EXT_SERVER 22         17         2283       suspicious 
+TCP    10008_114   51413  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_114  51413      19         3185       suspicious 
+TCP    10008_104   59550  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_104  59550      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  46460      18         3201       suspicious 
+TCP    10054_224   46460  EXT_SERVER 22         16         2227       suspicious 
+TCP    EXT_SERVER  22     10001_123  4365       18         2985       suspicious 
+TCP    10001_123   4365   EXT_SERVER 22         16         2917       suspicious 
+TCP    10008_114   59145  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  59145      19         3185       suspicious 
+TCP    10008_104   41153  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_104  41153      19         3185       suspicious 
+TCP    10008_114   37731  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  37731      19         3185       suspicious 
+TCP    10006_27    25646  EXT_SERVER 22         17         2435       suspicious 
+TCP    EXT_SERVER  22     10006_27   25646      30         6665       suspicious 
+TCP    EXT_SERVER  22     10054_224  35466      19         3185       suspicious 
+TCP    10054_224   35466  EXT_SERVER 22         17         2267       suspicious 
+TCP    10008_114   41598  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_114  41598      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  43742      19         3185       suspicious 
+TCP    10054_224   43742  EXT_SERVER 22         17         2267       suspicious 
+TCP    10008_114   49564  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  49564      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  55612      19         3185       suspicious 
+TCP    10054_224   55612  EXT_SERVER 22         17         2267       suspicious 
+UDP    10102_193   5427   EXT_SERVER 5060       1          443        suspicious 
+ICMP   EXT_SERVER  0      10102_193  3.3        1          471        suspicious 
+TCP    10008_114   56437  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10008_114  56437      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  39914      19         3185       suspicious 
+TCP    10054_224   39914  EXT_SERVER 22         18         2319       suspicious 
+TCP    10008_114   34757  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  34757      19         3185       suspicious 
+TCP    10004_35    22116  EXT_SERVER 22         7          671        suspicious 
+TCP    EXT_SERVER  22     10004_35   22116      10         1675       suspicious 
+TCP    EXT_SERVER  22     10054_224  50239      19         3185       suspicious 
+TCP    10054_224   50239  EXT_SERVER 22         17         2267       suspicious 
+TCP    10008_114   47225  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  47225      19         3185       suspicious 
+TCP    10006_27    44062  EXT_SERVER 22         15         2179       suspicious 
+TCP    EXT_SERVER  22     10006_27   44062      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  58757      19         3185       suspicious 
+TCP    10054_224   58757  EXT_SERVER 22         17         2267       suspicious 
+TCP    10008_114   58211  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  58211      19         3185       suspicious 
+TCP    EXT_SERVER  22     10054_224  39348      19         3185       suspicious 
+TCP    10054_224   39348  EXT_SERVER 22         15         2163       suspicious 
+TCP    10008_114   38760  EXT_SERVER 22         20         2423       suspicious 
+TCP    EXT_SERVER  22     10008_114  38760      20         3237       suspicious 
+TCP    EXT_SERVER  22     10054_224  59237      19         3185       suspicious 
+TCP    10054_224   59237  EXT_SERVER 22         15         2163       suspicious 
+TCP    10008_114   60045  EXT_SERVER 22         19         2371       suspicious 
+TCP    EXT_SERVER  22     10008_114  60045      19         3185       suspicious 
+TCP    10004_35    30333  EXT_SERVER 22         6          314        suspicious 
+TCP    EXT_SERVER  22     10004_35   30333      8          537        suspicious 
+TCP    10008_114   45959  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  45959      19         3185       suspicious 
+TCP    10008_114   33597  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  33597      19         3185       suspicious 
+TCP    EXT_SERVER  22     10001_123  4628       18         2985       suspicious 
+TCP    10001_123   4628   EXT_SERVER 22         13         2779       suspicious 
+TCP    10008_114   44348  EXT_SERVER 22         17         2267       suspicious 
+TCP    EXT_SERVER  22     10008_114  44348      19         3185       suspicious 
+TCP    10008_114   53833  EXT_SERVER 22         20         2423       suspicious 
+TCP    EXT_SERVER  22     10008_114  53833      19         3185       suspicious 
+TCP    10006_27    16539  EXT_SERVER 22         15         2179       suspicious 
+TCP    EXT_SERVER  22     10006_27   16539      19         3185       suspicious 
+TCP    10006_27    24315  EXT_SERVER 22         16         2215       suspicious 
+TCP    EXT_SERVER  22     10006_27   24315      19         3185       suspicious 
+TCP    10004_35    53718  EXT_SERVER 22         6          974        suspicious 
+TCP    EXT_SERVER  22     10004_35   53718      11         779        suspicious 
+TCP    EXT_SERVER  22     10001_123  4789       18         2985       suspicious 
+TCP    10001_123   4789   EXT_SERVER 22         13         2779       suspicious 
+TCP    EXT_SERVER  22     10001_123  3025       18         2985       suspicious 
+TCP    10001_123   3025   EXT_SERVER 22         13         2843       suspicious 
+TCP    10004_35    61440  EXT_SERVER 22         6          359        suspicious 
+TCP    EXT_SERVER  22     10004_35   61440      7          3423       suspicious 
+TCP    10006_27    62741  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10006_27   62741      19         3185       suspicious 
+TCP    10006_27    53892  EXT_SERVER 22         15         2179       suspicious 
+TCP    EXT_SERVER  22     10006_27   53892      19         3185       suspicious 
+TCP    10004_35    41226  EXT_SERVER 22         7          381        suspicious 
+TCP    EXT_SERVER  22     10004_35   41226      7          1421       suspicious 
+TCP    EXT_SERVER  22     10001_123  3966       20         3065       suspicious 
+TCP    10001_123   3966   EXT_SERVER 22         15         2871       suspicious 
+TCP    10004_35    62904  EXT_SERVER 22         5          277        suspicious 
+TCP    EXT_SERVER  22     10004_35   62904      6          1337       suspicious 
+TCP    EXT_SERVER  22     10001_123  3204       18         2985       suspicious 
+TCP    10001_123   3204   EXT_SERVER 22         13         2779       suspicious 
+TCP    10004_35    37648  EXT_SERVER 22         4          261        suspicious 
+TCP    EXT_SERVER  22     10004_35   37648      6          2354       suspicious 
+TCP    10004_35    55506  EXT_SERVER 22         5          283        suspicious 
+TCP    EXT_SERVER  22     10004_35   55506      13         7899       suspicious 
+TCP    EXT_SERVER  22     10001_123  2116       18         2985       suspicious 
+TCP    10001_123   2116   EXT_SERVER 22         13         2779       suspicious 
+TCP    10004_35    10434  EXT_SERVER 22         7          399        suspicious 
+TCP    EXT_SERVER  22     10004_35   10434      8          1489       suspicious 
+TCP    EXT_SERVER  22     10001_123  1560       8          2245       suspicious 
+TCP    10001_123   1560   EXT_SERVER 22         10         2091       suspicious 
+TCP    10006_27    58640  EXT_SERVER 22         16         2221       suspicious 
+TCP    EXT_SERVER  22     10006_27   58640      22         3489       suspicious 
+TCP    10004_35    42403  EXT_SERVER 22         7          396        suspicious 
+TCP    EXT_SERVER  22     10004_35   42403      15         8762       suspicious 
+TCP    10006_27    50947  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10006_27   50947      20         3249       suspicious 
+UDP    10116_230   53     EXT_SERVER 56647      1          129        suspicious 
+UDP    10116_230   53     EXT_SERVER 55530      1          250        suspicious 
+TCP    10117_200   443    EXT_SERVER 53610      9          5455       suspicious 
+TCP    EXT_SERVER  53610  10117_200  443        12         1710       suspicious 
+TCP    10006_27    43582  EXT_SERVER 22         17         2273       suspicious 
+TCP    EXT_SERVER  22     10006_27   43582      21         3357       suspicious 
+TCP    10006_27    34939  EXT_SERVER 22         15         2163       suspicious 
+TCP    EXT_SERVER  22     10006_27   34939      20         3289       suspicious 
+TCP    EXT_SERVER  22     10125_244  32205      6          264        suspicious 
+Total bytes: 607812

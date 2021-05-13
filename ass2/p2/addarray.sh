@@ -10,4 +10,5 @@ for (( i=0; i< ${#ass1[@]} ; i++ )); do     #C-style for loop that loops for eve
     echo "Student_$val Result: $value"      #printing resul
     val=$((val+1))                          
     
-doneinit
+done
+exit 0
