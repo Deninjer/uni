@@ -61,7 +61,7 @@ chooseFields(){
     packetsVar=0
 
 #Will repeat untill user exits or 3 fields are chosen
-    while [ $endwhile != 1 ]
+    while [[ $endwhile != 1 ]];
     do
         count=1 
         fieldAmount=${#fields[*]}
@@ -74,7 +74,7 @@ chooseFields(){
         #Choose which field to search
         regNumField='^[1-'$fieldAmount']{1}$'
         read -p "Choose field to search: " choice
-        while [[ ! $choice =~ $regNumField ]]       #valid awnser check
+        while [[ ! "$choice" =~ $regNumField ]]       #valid awnser check
         do 
             read -p 'Invalid number try agian: ' choice
         done
@@ -86,8 +86,8 @@ chooseFields(){
         if [[ "${fields[$idx]}" = "BYTES" ]]; then
             export byteVar=1
             read -p "What value would you like search for: " byteVal
-            $regNum='^[1-9]{3}$'
-            while [[ ! $byteVal =~ $regNum ]]; do        #valid awnser check
+            regNumB='[0-9]{4}'
+            until [[ ! "$byteVal" =~ $regNumB ]]; do        #valid awnser check    
                 read -p "Invalid Input, Try Again: " byteVal
             done
             byteOp=$(doCase "BYTES")                #gets operator
@@ -97,8 +97,9 @@ chooseFields(){
         #Code for when PACKETS is chosen
         elif [[ "${fields[$idx]}" = "PACKETS" ]];then
             export packetsVar=1
+            regNumP='[0-9]{4}'
             read -p "What value would you like search for: " packetVal
-            while [[ ! $packetVal =~ $regNum ]}; do                  #valid awnser check
+            until [[ ! "$packetVal" =~ $regNumP ]]; do                  #valid awnser check
                 read -p "Invalid Input, Try Again: " packetVal
             done
             packetsOp=$(doCase "PACKETS")
@@ -107,10 +108,10 @@ chooseFields(){
 
         #Code for when PROTOCOL is chosen
         elif [[ "${fields[$idx]}" = "PROTOCOL" ]];then
-            $regNum='^[1-2]{1}$'
+            regNum='^[1-3]{1}$'
             read -p "What Protocol would you like to search for: `echo $'\n (1)-TCP (2)-UDP (3)-ICMP: '`" protocolVal
             while [[ ! $protocolVal =~ $regNum ]]; do              #valid awnser check
-                read -p "Inval Inpit, Try Again: " protocolVal
+                read -p "Invalid Input, Try Again: " protocolVal
             done
             if [[ $protocolVal == 1 ]]; then                    #user choses from these options
                 protocolVal="TCP"
@@ -124,33 +125,35 @@ chooseFields(){
         #Code for when DEST PORT is chosen
         elif [[ "${fields[$idx]}" = "DEST PORT" ]];then
             read -p "What port would you like to search: `echo $'\n> '`" destpVal
-            regNum='^[1-9]{4}$'
-            while [[ ! $destpVal =~ $regNum ]]; do                   #valid awnser check
+            regNum='^[0-9A-Z_]{4}$'
+            until [[ ! "$destpVal" =~ $regNum ]]; do                   #valid awnser check
                 read -p "Invalid Input, Try Again: " destpVal
             done
             checkCriteria $destpVal "7"
 
         #Code for when SRC PORT is chosen
         elif [[ "${fields[$idx]}" = "SRC PORT" ]];then
-            read -p "What port would you like to search: `echo $'\n> '`" srcpVal
-            checkCriteria $srcpVal "5"      
-            while [[ ! $srcpVal =~ $regNum ]]; do                    #valid awnser check
+            regNum='^[0-9A-Z_]{4}$'
+            read -p "What port would you like to search: `echo $'\n> '`" srcpVal   
+            until [[ ! "$srcpVal" =~ $regNum ]]; do                    #valid awnser check
                 read -p "Invalid Input, Try Again: " srcpVal
             done
-        
+            checkCriteria $srcpVal "5"
+
         #Code for when DEST IP is chosen
         elif [[ "${fields[$idx]}" = "DEST IP" ]];then
             read -p "What Destination IP would you like to search? `echo $'\n> '`" destIp
-            checkCriteria $destIp "6"
-            regNum='^[1-9]{6}$'
-            while [[ ! $destIp =~ $regNum ]]; do                     #valid awnser check
+            regNum='^[0-9]{6}$'
+            until [[ ! "$destIp" =~ $regNum ]]; do                     #valid awnser check
                 read -p "Invalid Input, Try Again: " destIp
             done
+            checkCriteria $destIp "6"
 
         #Code for when SRC IP is chosen
         elif [[ "${fields[$idx]}" = "SRC IP" ]];then
+            regNum='^[0-9]{6}$'
             read -p "What Source IP would you like to search: `echo $'\n> '`" srcIp  
-            while [[ ! $srcIp =~ $regNum ]]; do                      #valid awnser check
+            until [[ ! $srcIp =~ $regNum ]]; do                      #valid awnser check
                 read -p "Invalid Input, Try Again: " srcIp
             done
             checkCriteria  $srcIp  "4"
@@ -166,8 +169,8 @@ chooseFields(){
             endwhile=1
         else
             regNum='^[1-2]{1}$'
-            read -p "(1)-Add one more field (2)-Continue`echo $'\n> '`" cont
-            while [[ ! $cont =~ $regNum ]]                      #valid awnser check
+            read -p "(1)-Add one more field (2)-Continue `echo $'\n> '`" cont
+            while [[ ! "$cont" =~ $regNum ]]                      #valid awnser check
             do 
                 read -p 'Invalid number try agian: ' cont
             done
@@ -183,7 +186,7 @@ allOrOne()
 {
     read -p " (1)-Search all logs`echo $'\n '`(2)-Search one log`echo $'\n> '`" choice
     regNum='^[1-2]{1}$'
-    while [[ ! $choice =~ $regNum ]]   #valid awnser check
+    while [[ ! "$choice" =~ $regNum ]]   #valid awnser check
     do 
         read -p 'Invalid number try agian: ' choice
     done
@@ -197,7 +200,7 @@ chooseLog()
     done
     read -p "Choose which log to " choice
     regNum='^[1-5]{1}$'
-    while [[ ! $choice =~ $regNum ]]   #valid awnser check
+    until [[ ! "$choice" =~ $regNum ]]   #valid awnser check
     do 
         read -p 'Invalid number try agian: ' choice
     done
@@ -206,7 +209,7 @@ chooseLog()
 #function that does the search using awk
 search()
 {
-    formatString="%-6s %-11s %-6s %-10s %-10s %-10s %-10s %-10s "           #Sets format string
+    formatString="%-6s %-11s %-6s %-11s %-6s %-6s %-6s %-10s "           #Sets format string
     formatVariables=",\$3, \$4, \$5, \$6, \$7, \$8, \$9, \$13"              
 
     #adds all logs into one text file
@@ -315,7 +318,7 @@ do
         done
         read -p "Which log would you like to search: " choice
         regNum='^[1-5]{1}$'
-        while [[ ! $choice =~ $regNum ]]; do
+        while [[ ! "$choice" =~ $regNum ]]; do
             read -p "Invalid Input, Try Again: " choice
         done
         for (( i=0; i<${#logs[*]}; i++ )); do
@@ -329,7 +332,7 @@ do
     #Checks if user wants to continue or exit
     regNum='^[1-2]{1}$'
     read -p "Do another search: `echo $'\n (1)-Yes (2)-No '``echo $'\n> '`" choice
-    while [[ $choice =~ $regNum ]]; do
+    until [[ "$choice" =~ $regNum ]]; do
         read -p "Invalid Input, Try Again: " choice
     done
     if [[ $choice == 2 ]];then
