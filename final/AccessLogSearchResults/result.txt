@@ -1,7 +1,0 @@
-ICMP   EXT_SERVER  0      10095_221  3.3        1          91         suspicious 
-ICMP   EXT_SERVER  0      10099_127  3.3        1          467        suspicious 
-ICMP   EXT_SERVER  0      10102_193  3.3        1          471        suspicious 
-ICMP   EXT_SERVER  0      10108_168  3.3        1          64         suspicious 
-ICMP   10118_90    0      EXT_SERVER 8          1          46         suspicious 
-ICMP   EXT_SERVER  0      10118_90   0          1          32         suspicious 
-ICMP   EXT_SERVER  0      10121_62   3.3        1          150        suspicious 
